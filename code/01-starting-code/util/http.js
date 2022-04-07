@@ -1,6 +1,5 @@
 import axios from 'axios';
-const FBEndpoint =
-    'https://max-react-native-expenses-default-rtdb.firebaseio.com/';
+const FBEndpoint = 'THIS_IS_GOOGLE_END_POINT';
 
 export async function storeExpense(expenseData) {
     // post for creating new db entry
